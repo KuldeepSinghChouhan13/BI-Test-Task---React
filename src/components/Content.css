@@ -1,0 +1,70 @@
+.content-container {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f4f5fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-section, .middle-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-box {
+    background: #fff;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .donut-placeholder,
+  .bar-placeholder,
+  .line-placeholder {
+    height: 200px;
+    background-color: #eef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #555;
+  }
+  
+  .bar-chart-box, .line-chart-box {
+    background: #fff;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .bottom-section {
+    margin-top: 20px;
+  }
+  
+  .map-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .map-placeholder {
+    height: 300px;
+    background-color: #ddeaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
